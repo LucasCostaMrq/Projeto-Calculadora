@@ -1,10 +1,15 @@
 # Projeto-Calculadora
--> Primeiro projeto de uma calculadora simples.
+## Primeiro Projeto
 
 
 &nbsp;
-Realiza cálculos de apenas dois números com os 4 operadores básicos.
-
+-> Início: 27/08/2023
 
 &nbsp;
-Ainda se encontra em fase de modificações.
+-> Linguagens: HTML, CSS e JavaScript.
+
+&nbsp;
+-> Em fase de modificações.
+
+&nbsp;
+-> Versão Atual: 1.5
