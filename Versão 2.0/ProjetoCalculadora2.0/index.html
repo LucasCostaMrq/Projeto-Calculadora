@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br>
+    <br>
+    <h1>Calculadora</h1>
+    <h2>Versão 2.0</h2>
+    <br>
+    
+    <div>
+        <label for="NumberOne"><strong>Digite o Primeiro número: </strong></label>
+        <input id="NumberOne" type="text">
+    </div>
+    <br> 
+    <br>
+    
+    <div>
+        <label for="NumberTwo"><strong>Digite o Segundo número: </strong></label>
+        <input id="NumberTwo" type="text">
+    </div>
+    <br> 
+    <br>    
+    
+    <div>
+        <button onclick="Sum()">Soma</button>
+        <button onclick="Subtraction()">Subtração</button>
+        <button onclick="Multiplication()">Multiplicação</button>
+        <button onclick="Division()">Divisão</button>
+        <button onclick="Exponent()">Potenciação</button>
+    </div>
+    <br>
+    
+    <strong>
+        <p id="answer"></p>
+    </strong>
+    <br><br><br><br>
+    <hr>
+
+    <script src="CalculadoraFaseBeta.js"></script>
+    <p>OBS: os cálculos que envolvem divisão e potência <strong>realizam as operação do primeiro número pelo/elevado ao segundo.</strong></p>
+</body>
+</html>
