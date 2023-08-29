@@ -12,4 +12,4 @@
 -> Em fase de modificações.
 
 &nbsp;
--> Versão Atual: 1.5
+-> Versão Atual: 2.0
