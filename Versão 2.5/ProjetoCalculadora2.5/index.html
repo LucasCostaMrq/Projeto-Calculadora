@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="ProjetoCalculadora">
+        <br>
+        <br>
+        <div class="header">
+            <h1>Calculadora</h1>
+            <h2>Versão 2.5</h2>
+        <br>
+            <div class="input-label">
+                <label for="NumberOne"><strong>Digite o Primeiro número: </strong></label>
+                <input id="NumberOne" type="text">
+                <br>
+                <br>
+                <label for="NumberTwo"><strong>Digite o Segundo número: </strong></label>
+                <input id="NumberTwo" type="text">
+                <br><br><br><br><br>
+                <div class="calc-bottons">
+                    <button class="btn" onclick="Sum()">+</button>
+                    <button class="btn" onclick="Subtraction()">-</button>
+                    <button class="btn" onclick="Multiplication()">x</button>
+                    <button class="btn" onclick="Division()">/</button>
+                    <button class="btn" onclick="Exponent()">^</button>
+                    <button class="btn" onclick="Percent()">%</button>
+                    <div class="calc-Answer">
+                        <strong><p id="answer"></p></strong>       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <script src="CalculadoraFaseBeta.js"></script>
+    <p>OBS: os cálculos realizam as operação do primeiro <br> número pelo/elevado/menos... o segundo.</p>
+    <br>
+    <br>
+    <h6>by Lucas Costa Marques</h6>
+    <h6>last update: 12/09/2023</h6>
+</body>
+</html>
