@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+.header{
+    text-align: center;
+    
+}
+.header > h1{
+    font-size: 60px;   
+    font-family:Arial, Helvetica, sans-serif;
+    color: brown;
+    
+}
+
+.header > h2{
+    font-size: 30px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown;
+    
+}
+.input-label{
+    text-align: center;
+    padding: 5%;
+}
+.input-label > label{   
+    font-size: 23px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:lavender;
+}
+
+.inputlabel > input{   
+    width: 100px;
+    height: 20px; 
+      
+}
+
+.btn{
+    width: 40px;
+    height: 28px;
+    font-size: 17px;
+    color: black;
+    font-weight: 1000;
+    border-width: 2px;
+    border-color:aliceblue;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 0% 0% 1%;
+}
+
+.calc-Answer > p{
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    color:lavender;
+}
+p{
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    color:lavender;
+}
+h6{
+    color: aliceblue;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0% 0% 0% 20%;
+}
+hr{
+    width: 60%;
+    height: 10px;
+    border-radius: 5px;
+    border-color: brown;
+    background-color: brown;
+}
